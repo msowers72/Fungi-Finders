@@ -214,6 +214,28 @@
 
 }
 
+@layer components {
+  .site-header {
+    padding-block: 1rem;
+  }
+  .site-header__inner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+  }
+
+  .primary-navigation  {
+    ul {
+      display: flex;
+      gap: 0.5rem 1rem;
+      flex-wrap: wrap;
+      list-style-type: none;
+    }
+  }
+}
+
+
 @layer utilities {
   .text-center {
     text-align: center;
